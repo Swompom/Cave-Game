@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://g42bq3xivmma"]
+
+[ext_resource type="Texture2D" uid="uid://ckc644qwcqdj" path="res://i-decided-to-make-one-of-my-pawns-probably-looks-like-your-v0-g57tjpb1ebob1.webp" id="1_d1ja7"]
+[ext_resource type="Script" path="res://player.gd" id="2_0ddbs"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(423, 261)
+scale = Vector2(0.146875, 0.741667)
+texture = ExtResource("1_d1ja7")
+script = ExtResource("2_0ddbs")
